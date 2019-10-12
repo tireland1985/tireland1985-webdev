@@ -1,9 +1,16 @@
 /* rotate function found on stackoverflow */
-/* removed as it caused problems - images overlaying text. images edited instead */
-.rotate90 {
+/* removed as it caused problems - images obsuring text. images edited instead */
+/*.rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
+} */
+/* set background and text colour */
+body { background-color: #151D32;
+    text-align: left;
+    color:#B9B9B9;
+} 
+/* bullet point for unordered lists */
+ul {list-style-type: circle;}
