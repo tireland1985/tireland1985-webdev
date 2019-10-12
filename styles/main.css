@@ -1,4 +1,5 @@
 /* rotate function found on stackoverflow */
+/* removed as it caused problems - images overlaying text. images edited instead */
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
