@@ -15,3 +15,16 @@ body { background-color: #151D32;
 } 
 /* bullet point for unordered lists */
 ul {list-style-type: circle;}
+
+/* borrowed from github.com/lizcoultersmith/csy1018-2019-demo */
+.container:hover {
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.3s ease;
+}
+img {
+    border-style: none;
+    border-radius 100%;
+    filter: grayscale(0);
+}
