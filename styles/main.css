@@ -11,7 +11,7 @@
 body { background-color: #151D32;
     text-align: center;
     color:#B9B9B9;
-    font-size: 18pt;
+    font-size: 15pt;
 } 
 /* bullet point for unordered lists */
 ul {list-style-type: circle;}
