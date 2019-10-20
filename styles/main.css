@@ -28,3 +28,11 @@ img {
     border-radius: 100%;
     filter: grayscale(0);
 }
+
+/* centering CSS from w3schools.com */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
