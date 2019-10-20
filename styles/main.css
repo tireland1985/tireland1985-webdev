@@ -18,7 +18,9 @@ ul {
     list-style-type: disc;
     text-align: left;
 }
-
+p {
+    text-align: left;
+}
 /* borrowed from github.com/lizcoultersmith/csy1018-2019-demo */
 .container:hover {
     filter: grayscale(1);
