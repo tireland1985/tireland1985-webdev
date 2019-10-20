@@ -9,17 +9,14 @@
 } */
 /* set background and text colour */
 body { background-color: #151D32;
-    text-align: left;
+    text-align: center;
     color:#B9B9B9;
     font-size: 15pt;
 } 
 /* bullet point for unordered lists */
 ul {
     list-style-type: disc;
-    text-align: left;
-}
-p {
-    text-align: left;
+    text-align: center;
 }
 /* borrowed from github.com/lizcoultersmith/csy1018-2019-demo */
 .container:hover {
@@ -27,6 +24,7 @@ p {
     border-style: none;
     border-radius: 100%;
     transition: background-size 0.3s ease;
+    align-content: center;
 }
 img {
     border-style: none;
