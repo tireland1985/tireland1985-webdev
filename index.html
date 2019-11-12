@@ -14,7 +14,7 @@
     <p>Currently a first year student at the University of Northampton, studying Computer Networks Engineering.<br>
   Pictured below is my homelab:</p>
  <span><img src="images/homelab_1.jpg" alt="my homelab setup (old)" width="300" height="400" class="center"></span>
-  <p>Currently racked:</p>
+  <p>Hardware:</p>
     <ul>
       <li>Cisco Aironet 1141N-E-K9 Autonomous AP (behind monitor)</li>
       <li>Cisco ISR G2 2911-sec k9</li>
@@ -26,13 +26,18 @@
       <li>2x Cisco Catalyst 2950 Layer 2 switches</li>
       <li>Cisco Catalyst 3550-48TS-S Multilayer switch</li>
       <li>2x Cisco ISR 2611xm routers and a 2620 (non-xm), with serial and ADSL WIC's</li>
-      <li>random 2U case containing two mini-ITX systems: one AsrockRack J1900D2y and one C3758D4I</li>
+      <li>Travla 2U case containing two mini-ITX systems: one AsrockRack J1900D2y and one C3758D4I</li>
       <li>Dell PowerEdge 2950-III (2xCPU, 64GB RAM, ESXi 5.5)</li>
       <li>Dell PowerEdge R310 (single CPU, 24GB RAM, Esxi 5.5)</li>
+      <li>Dell PowerEdge R420 (single E5-2407, 96GB RAM)</li>
       <li>4x Raspberry Pi's (isc-dhcp-server, bind9, radius and tacacs)</li>
     </ul>
-    <p>Not pictured (or currently racked) includes a PowerEdge R420 (currently single CPU, 96GB RAM, no OS yet),<br>
-    a second Cisco 2811, not currently utilised, and an Intel 7th Generation NUC.
+  </p>
+  <p>I'm currently running a 3-node ESXi 6.5 cluster on the Intel NUC, R310 and R420.
+  VM's and Services include Active Directory, an internal CA, OpenVPN for remote access, a centralised syslog server, as 
+  well as a SNMP monitoring system and IPAM, among others.
+  Shared storage for the hosts is provided by an AsRock C3758D5i over iSCSI, running FreeNAS/ ZFS.
+  Both the Intel NUC and R310 have internal SSD datastores for VM's that require faster storage.
   </p>
 </div>
 </body>
